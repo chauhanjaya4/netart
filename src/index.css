@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image:linear-gradient(#FDFCF6,#FFFDD0);
+}
+.logo{
+width:300px;
+}
+.cri_pumps{
+  font-family: sans-serif;
+font-weight: 600;
+font-size: 13px;;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.installed_text{
+  font-size:12px;
+  padding:16px;
+}
+
+.machine_img{
+width:1000px;
+}
+
+.machine_section{
+  border-bottom:2px solid #B22222
+}
+
+.red_bar{
+color:red;
+font-size:20px;
+font-weight: 100;
+}
+
+.processes{
+  padding:20px;
+}
+
+.footer_text{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color:#ffffff;
+  margin:4px;
+}
+.footer{
+  background-color: #f02318;
+  padding:20px;
+  margin:5px;
+}
+
+@media screen and (max-width: 900px) {
+.mobile{
+  display:inline-block !important;
+}
+
+.machine_img {
+  width:100% !important;
+}
 }
